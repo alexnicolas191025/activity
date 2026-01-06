@@ -183,17 +183,10 @@ header .nav li a{
         font-size: 1rem;
     }
 }
-@media(min-width:768px){
-    header{
-        justify-content: center;
-        padding: 15px 20px;
-    }
-    header .logo{
-        flex-direction: column;
-        text-align: center;
-    }
-    header .logo p{
-        padding-left: 0;
-        padding-top: 5px;
+
+@media screen and (max-width: 768px) {
+    header {
+        justify-content: center; /* Only centers when screen is 768px or less */
+        padding: 15px 20px;      /* Reduces padding for smaller screens */
     }
 }
