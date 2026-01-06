@@ -144,7 +144,7 @@ header .nav li a{
     color: var(--ferrari-red);
 }
 
-        /* Responsive Breakpoint */
+       
 @media screen and (min-width: 768px) {
  .maincontent {
     flex: 0 0 65%;
@@ -154,5 +154,46 @@ header .nav li a{
     flex: 0 0 calc(35% - 40px);
 }
 }
-
-
+.footer-section{
+    background-color:black ;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.footer-container{
+    width:100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+    text-align: center;
+}
+.footer-text{
+    color: white;
+    margin-bottom: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-family: "Zalando Sans Expanded", sans-serif;
+}
+@media(min-width:768px){
+    .footer-container{
+        max-width: 720px;
+    }
+    .footer-text{
+        font-size: 1rem;
+    }
+}
+@media(min-width:768px){
+    header{
+        justify-content: center;
+        padding: 15px 20px;
+    }
+    header .logo{
+        flex-direction: column;
+        text-align: center;
+    }
+    header .logo p{
+        padding-left: 0;
+        padding-top: 5px;
+    }
+}
